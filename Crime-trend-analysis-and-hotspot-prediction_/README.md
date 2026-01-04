@@ -11,8 +11,11 @@ Chicago Crime Dataset from Kaggle -https://www.kaggle.com/search?q=Chicago+Crime
 
 ## Research Questions
 1. What are the overall crime trends over time?
+   Crime levels vary across years and show noticeable increases and decreases rather than remaining constant. This indicates that crime follows temporal patterns      influenced by time-related factors.
 2. Can crime hotspots be identified using spatial (latitude and longitude) data?
+    Yes. Using latitude and longitude with clustering techniques clearly reveals distinct crime hotspots, showing that crimes are spatially concentrated in             specific areas.
 3. How does the frequency of crimes vary across different locations?
+    Crime frequency differs significantly by location, with some areas experiencing much higher concentrations of crime than others.
 
 ## How to Run the Code
 ```bash
@@ -49,4 +52,5 @@ Due to Apache Airflow’s limited support for Windows environments, the DAG
 was not deployed via the Airflow UI. However, the DAG is fully runnable
 conceptually and adheres to Airflow design best practices, including
 clear task naming, logical dependencies, and modular Python operators.
+
 
