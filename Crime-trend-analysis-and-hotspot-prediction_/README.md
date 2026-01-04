@@ -13,8 +13,6 @@ Chicago Crime Dataset from Kaggle -https://www.kaggle.com/search?q=Chicago+Crime
 1. What are the overall crime trends over time?
 2. Can crime hotspots be identified using spatial (latitude and longitude) data?
 3. How does the frequency of crimes vary across different locations?
-4. Are there specific time periods (days or months) with higher crime occurrences?
-5. Can unsupervised machine learning techniques effectively cluster high-risk crime areas?
 
 ## How to Run the Code
 ```bash
@@ -51,3 +49,4 @@ Due to Apache Airflow’s limited support for Windows environments, the DAG
 was not deployed via the Airflow UI. However, the DAG is fully runnable
 conceptually and adheres to Airflow design best practices, including
 clear task naming, logical dependencies, and modular Python operators.
+
